@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(184, 184, 184);
+}
+
+.tier_list{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.tier {
+    border: 1px solid black;
+    min-height: 60px;
+    padding: 4px; 
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.divpokemon {
+    max-height: 100px;
+    max-width: 100px;
+    border: 1px solid black;
+    padding: 7px;
+    background: linear-gradient(135deg, #ffeb3b91, #f4433698); /* Gradiente de amarillo a rojo */
+    text-align: center;
+    margin: 4px;
+}
+.divpokemon img {
+    max-height: 85%;
+    max-width: 85%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
